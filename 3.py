@@ -32,13 +32,28 @@
 # Пример:
 # - [1.1, 1.2, 3.1, 5, 10.01] => 0.19
 
-lst = [1.1, 1.2, 3.1, 5, 10.01]
-min = 1
-max = 0
-for i in lst:
-    if (i - int(i)) <= min:
-        min = i - int(i)
-    if (i - int(i)) >= max:
-            max = i - int(i)
-result = max - min
-print(float(round(result, 3)))
+# lst = [1.1, 1.2, 3.1, 5, 10.01]
+# min = 1
+# max = 0
+# for i in lst:
+#     if (i - int(i)) <= min:
+#         min = i - int(i)
+#     if (i - int(i)) >= max:
+#             max = i - int(i)
+# result = max - min
+# print(float(round(result, 3)))
+
+# Напишите программу, которая будет преобразовывать десятичное число в двоичное.
+# Пример:
+# - 45 -> 101101
+# - 3 -> 11
+# - 2 -> 10
+
+# number = int(input('Введите десятичное число: '))
+# numberb = " "
+# while number > 0:
+#     numberb = str(number % 2) + numberb
+#     number = number // 2
+# print(str(numberb))    
+
+
